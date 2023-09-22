@@ -171,9 +171,9 @@ iface_file = gr.Interface(
         gr.Slider(minimum=1, maximum=10, step=1, default=2),
     ],
     outputs=gr.Video(),
-    title='AnimeGANV2 On Videos',
-    description="Applying AnimeGAN-V2 to frames from video clips",
-    article=article,
+    title='DIAMONIK7777 - AnimeGAN On Videos',
+    description="<p style='text-align: center'>Будь в курсе обновлений <a href='https://vk.com/public221489796'>ПОДПИСАТЬСЯ</a></p>",
+    article="<br><br><p style='text-align: center'>Генерация индивидуальной модели с собственной внешностью <a href='https://vk.com/im?sel=-221489796'>ПОДАТЬ ЗАЯВКУ</a></p><br><br><br><br><br>",
     enable_queue=True,
     examples=[
         ['driving.mp4', 0, 6],
@@ -186,5 +186,5 @@ iface_file = gr.Interface(
 gr.TabbedInterface(
 interface_list=[iface_file, iface_webcam],
 tab_names=["From a File!", "From your Webcam!"]
-).launch(debug=True, max_threads=True, share=True, inbrowser=True)
+).launch(inbrowser=True)
     
