@@ -1,0 +1,12 @@
+gradio
+torch
+torchvision
+Pillow
+gdown
+numpy
+scipy
+cmake
+onnxruntime-gpu
+opencv-python-headless
+encoded-video
+av==9.2.0
