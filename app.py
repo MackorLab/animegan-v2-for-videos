@@ -186,5 +186,5 @@ iface_file = gr.Interface(
 gr.TabbedInterface(
 interface_list=[iface_file, iface_webcam],
 tab_names=["From a File!", "From your Webcam!"]
-).launch(inbrowser=True)
+).launch(share=True)
     
