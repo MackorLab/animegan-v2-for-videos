@@ -183,8 +183,8 @@ iface_file = gr.Interface(
     allow_flagging=False,
 )
 
-if __name__ == '__main__':
-    gr.TabbedInterface(
-        interface_list=[iface_file, iface_webcam],
-        tab_names=["From a File!", "From your Webcam!"]
-    ).launch(debug=True, max_threads=True, share=True, inbrowser=True)
+gr.TabbedInterface(
+interface_list=[iface_file, iface_webcam],
+tab_names=["From a File!", "From your Webcam!"]
+).launch(debug=True, max_threads=True, share=True, inbrowser=True)
+    
