@@ -151,8 +151,8 @@ iface_webcam = gr.Interface(
     predict_fn,
     inputs=[
         gr.Video(source="webcam"),
-        gr.Slider(minimum=0, maximum=300, step=1, default=0),
-        gr.Slider(minimum=1, maximum=10, step=1, default=2),
+        gr.Slider(minimum=0, maximum=550, step=1, default=0),
+        gr.Slider(minimum=1, maximum=600, step=1, default=2),
         # gr.inputs.Slider(minimum=6, maximum=18, step=6, default=12),  # Leaving manual fps out for now
     ],
     outputs=gr.Video(),
